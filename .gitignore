@@ -1,1 +1,14 @@
-connection.txt
+# Ignore all .env files
+**/*.env
+
+# Ignore all app-cache folders and their contents
+app-cache/
+
+# Ignore all tests folders and their http tests
+tests/
+
+# Ignore all .zip files
+*.zip
+
+#Ignore my local PostgreSQL credentials
+credentials.txt
