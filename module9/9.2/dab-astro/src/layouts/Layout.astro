@@ -1,0 +1,13 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{ Astro.props.title }</title>
+  </head>
+  <body>
+    <h1>{ Astro.props.heading }</h1>
+    <ul>
+      <li><a href=`/${parseInt(Astro.props.heading) + 1}`>{ Astro.props.linktext }</a></li>
+    </ul>
+    <slot />
+  </body>
+</html>
