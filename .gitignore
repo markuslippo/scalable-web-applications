@@ -12,3 +12,6 @@ tests/
 
 #Ignore my local PostgreSQL credentials
 credentials.txt
+
+
+/module13/13.4/production-database-data/
